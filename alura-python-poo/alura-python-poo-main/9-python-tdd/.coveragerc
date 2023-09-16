@@ -1,0 +1,10 @@
+[run]
+source = ./
+
+[report]
+exclude_lines =
+    @property
+    def __str__
+
+[html]
+directory = coverage_relatorio_html
