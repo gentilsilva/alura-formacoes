@@ -1,0 +1,26 @@
+[
+  {
+    "cep": "31620-040",
+    "logradouro": "Rua Almeria",
+    "complemento": "",
+    "bairro": "Europa",
+    "localidade": "Belo Horizonte",
+    "uf": "MG",
+    "ibge": "3106200",
+    "gia": "",
+    "ddd": "31",
+    "siafi": "4123"
+  },
+  {
+    "cep": "01001-000",
+    "logradouro": "Praça da Sé",
+    "complemento": "lado ímpar",
+    "bairro": "Sé",
+    "localidade": "São Paulo",
+    "uf": "SP",
+    "ibge": "3550308",
+    "gia": "1004",
+    "ddd": "11",
+    "siafi": "7107"
+  }
+]
