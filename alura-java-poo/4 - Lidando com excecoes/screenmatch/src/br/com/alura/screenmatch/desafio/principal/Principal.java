@@ -6,8 +6,6 @@ import br.com.alura.screenmatch.desafio.service.FileGenerate;
 import br.com.alura.screenmatch.desafio.service.JsonParse;
 import br.com.alura.screenmatch.desafio.service.CepRequest;
 
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
