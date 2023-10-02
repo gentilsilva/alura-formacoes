@@ -6,7 +6,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class ViaCEPRequest {
+public class CepRequest {
 
     public String requisitaEndereco(String cep) {
 
