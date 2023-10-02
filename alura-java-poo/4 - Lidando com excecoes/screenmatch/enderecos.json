@@ -7,5 +7,14 @@
     "uf": "SP",
     "ibge": "3550308",
     "ddd": "11"
+  },
+  {
+    "cep": "31630-900",
+    "logradouro": "Rodovia Papa João Paulo II",
+    "bairro": "Serra Verde (Venda Nova)",
+    "localidade": "Belo Horizonte",
+    "uf": "MG",
+    "ibge": "3106200",
+    "ddd": "31"
   }
 ]

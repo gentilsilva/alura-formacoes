@@ -2,6 +2,7 @@ package br.com.alura.screenmatch.desafio.principal;
 
 import br.com.alura.screenmatch.desafio.modelos.Endereco;
 import br.com.alura.screenmatch.desafio.modelos.EnderecoDTO;
+import br.com.alura.screenmatch.desafio.service.FileGenerate;
 import br.com.alura.screenmatch.desafio.service.JsonParse;
 import br.com.alura.screenmatch.desafio.service.CepRequest;
 
@@ -19,6 +20,7 @@ public class Principal {
         CepRequest request = new CepRequest();
         JsonParse json = new JsonParse();
         List<Endereco> enderecos = new ArrayList<>();
+        FileGenerate fileGenerate = new FileGenerate();
 
         do {
             boolean valida = true;
@@ -44,23 +46,10 @@ public class Principal {
                 if (leia.nextLine().equalsIgnoreCase("sim")) {
                     enderecos.add(novoEndereco);
                 }
-
             }
-
-
-
-
-
-
         } while (!cep.equalsIgnoreCase("sair"));
 
-        try {
-            FileWriter fileWriter = new FileWriter("enderecos.json");
-            fileWriter.write(json.parseToJson(enderecos));
-            fileWriter.close();
-        } catch (IOException e) {
-            System.out.println("Erro na escrita/leitura de arquivo");
-        }
+        fileGenerate.GenerateFile(enderecos, json);
 
     }
 }
